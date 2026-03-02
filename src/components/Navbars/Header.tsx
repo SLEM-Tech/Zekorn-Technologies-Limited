@@ -122,8 +122,8 @@ const Header = () => {
         {/* Main Desktop Header */}
         <div className="hidden slg:flex items-center justify-between w-full py-5 max-w-[1540px] px-12 mx-auto gap-8">
           {/* 1. Logo Section */}
-          <div className="flex items-center shrink-0">
-            <Link href="/" className="flex items-end">
+          <div className="shrink-0">
+            <Link href="/">
               <Picture
                 src={logoImage}
                 alt="logo"
@@ -270,7 +270,17 @@ const Header = () => {
               >
                 <FiMenu className="text-xl text-black" />
               </button>
-              <span className="text-lg font-black tracking-tight">LOGO</span>
+              <div className="shrink-0">
+                <Link href="/">
+                  <Picture
+                    src={logoImage}
+                    alt="logo"
+                    priority
+                    loading="lazy"
+                    className={`w-32 duration-300 hover:scale-105 transition-[.3] hover:animate-pulse`}
+                  />
+                </Link>
+              </div>
             </div>
             <div
               onClick={onOpenCart}
