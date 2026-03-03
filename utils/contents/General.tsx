@@ -136,10 +136,17 @@ export const PrivacyPolicy = () => {
 						02. Hardware-Level Data Protection
 					</h4>
 					<p className='mt-4 leading-[1.8] text-xs md:text-sm xl:text-base text-white/90'>
+<<<<<<< HEAD
 						{CompanyShortName} Technologies employs bank-grade AES-256
 						encryption to protect your digital identity. We treat your personal
 						data with the same precision we apply to high-performance
 						computing—ensuring zero vulnerabilities.
+=======
+						Vertexem Technologies employs bank-grade AES-256 encryption to
+						protect your digital identity. We treat your personal data with the
+						same precision we apply to high-performance computing—ensuring zero
+						vulnerabilities.
+>>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 					</p>
 				</div>
 			</div>
@@ -276,8 +283,12 @@ export const RefundPolicy = () => {
 			<p className='mt-4 p-4 bg-zinc-900 rounded-xl border border-white/5'>
 				<strong>Important Note:</strong> To maintain the quality of our
 				inventory, all returns undergo a <strong>Technical Diagnostic</strong>{" "}
+<<<<<<< HEAD
 				by {CompanyShortName} engineers before a credit or replacement is
 				authorized.
+=======
+				by Vertexem engineers before a credit or replacement is authorized.
+>>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 			</p>
 		</div>
 	);
@@ -287,7 +298,11 @@ export const AboutUsContent = () => {
 	return (
 		<>
 			<p className='text-zinc-400 text-sm sm:text-lg lg:text-xl leading-relaxed lg:text-right max-w-2xl'>
+<<<<<<< HEAD
 				{CompanyShortName} Technologies Limited is the backbone of your digital
+=======
+				Vertexem Technologies Limited is the backbone of your digital
+>>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 				infrastructure. We provide the high-performance internal components and
 				precision peripherals that define modern enterprise and gaming
 				workflows.
