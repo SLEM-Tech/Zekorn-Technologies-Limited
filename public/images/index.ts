@@ -17,11 +17,7 @@ import officeImg1 from "./office-img.png";
 import confetti from "./confetti.png";
 import banner from "./banner.png";
 import heroImage2 from "./heroImage2.png";
-<<<<<<< HEAD
-import logoImage from "./heroImage2.png";
-=======
 import logoImage from "./zekorn-logo-2.png";
->>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 import heroImage3 from "./heroImage3.png";
 import heroImage4 from "./heroImage4.png";
 import heroBg from "./hero-bg.png";

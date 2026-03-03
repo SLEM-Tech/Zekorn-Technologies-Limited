@@ -4,15 +4,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import useToken from "../hooks/useToken";
 import { signOut } from "@utils/lib";
-<<<<<<< HEAD
 import {
 	CompanyName,
 	CompanyShortName,
 	filterCustomersByEmail,
 } from "@constants";
-=======
-import { CompanyName, CompanyShortName, filterCustomersByEmail } from "@constants";
->>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 import { useCustomer } from "../lib/woocommerce";
 import { LogoImage } from "@utils/function";
 import { usePathname } from "next/navigation";
@@ -69,11 +65,7 @@ const Footer = () => {
 		{
 			title: "Hardware Hub",
 			links: [
-<<<<<<< HEAD
-				{ label: "About", href: "/about" },
-=======
 				{ label: "About Vertexem", href: "/about" },
->>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 				{ label: "Technical FAQ", href: "/faq" },
 				{ label: "Partner Program", href: "/contact-us" },
 			],
@@ -97,12 +89,8 @@ const Footer = () => {
 					<div className='flex flex-col gap-4'>
 						<LogoImage className='!w-[45px] brightness-0 invert' />
 						<h2 className='text-white font-black uppercase tracking-tighter text-xl'>
-<<<<<<< HEAD
 							{CompanyShortName}
 							<span className='text-[#E83E44]'>.</span>
-=======
-							{CompanyShortName}<span className='text-[#E83E44]'>.</span>
->>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 						</h2>
 					</div>
 
