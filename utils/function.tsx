@@ -18,14 +18,22 @@ const pacifico = Pacifico({
 export const LogoImage = ({ className }: LogoImageProps) => {
 	return (
 		<Link href='/' className='flex items-end'>
+<<<<<<< HEAD
 			{/* <Picture
+=======
+			<Picture
+>>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 				src={logoImage}
 				alt='logo'
 				priority
 				loading='lazy'
 				className={`w-[20px] lg:w-[30px] duration-300 hover:scale-105 transition-[.3] hover:animate-pulse ${className}`}
 			/>
+<<<<<<< HEAD
 			*/}
+=======
+			
+>>>>>>> c6df0af91e202ddbd3cebeab74bd995fef841bc1
 		</Link>
 	);
 };
