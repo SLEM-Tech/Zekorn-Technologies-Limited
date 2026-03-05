@@ -156,15 +156,15 @@ const AllCategorySection = () => {
         <div className="relative z-20 flex flex-col items-center max-w-4xl px-6 space-y-6">
           <div className="space-y-1 lg:space-y-2">
             <h1 className="text-2xl lg:text-6xl text-white tracking-tight leading-tight lg:whitespace-nowrap">
-              Dive into endless purchase
+              Your Ultimate Gadget Destination
             </h1>
             <h1 className="text-2xl lg:text-6xl text-primary leading-tight">
-              Explore now!
+              Shop the Latest Tech!
             </h1>
           </div>
 
           <p className="text-gray-400 text-xs lg:sm font-light tracking-wide max-w-xl">
-            Expand your horizons through the power of literature.
+            From smartphones to laptops, smart wearables to accessories — discover premium gadgets at unbeatable prices.
           </p>
 
           {/* CTA BUTTON - Redesigned to match "Start Now" button */}
@@ -172,14 +172,14 @@ const AllCategorySection = () => {
             onClick={() => router.push("/category")}
             className="group flex items-center gap-2 bg-primary hover:bg-opacity-90 text-white text-sm md:text-base px-8 py-3.5 rounded-xl font-medium transition-all active:scale-95 shadow-xl shadow-black/20 mt-4"
           >
-            Start Now
+            Shop Now  
             <FiArrowRight className="text-lg group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
       </section>
 
       {/* <AboutUs /> */}
-      <StatsSection />
+      {/* <StatsSection /> */}
     </>
   );
 };
