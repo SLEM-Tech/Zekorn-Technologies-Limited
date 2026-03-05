@@ -106,15 +106,15 @@ export interface productCategoriesProps {
 }
 
 export const productCategories: productCategoriesProps[] = [
-	{ id: 1, name: "Automobile", route: "/category" },
-	{ id: 2, name: "Electronics", route: "/category" },
-	{ id: 3, name: "Beddings", route: "/category" },
-	{ id: 4, name: "Corporate Gifts", route: "/category" },
-	{ id: 5, name: "Fashion", route: "/category" },
-	{ id: 6, name: "Home Appliances", route: "/category" },
-	{ id: 7, name: "Office and Computing", route: "/category" },
-	{ id: 8, name: "Phones & Tablets", route: "/category" },
-	{ id: 9, name: "Sporting Goods", route: "/category" },
+	{ id: 1, name: "Phones & Tablets", route: "/category" },
+	{ id: 2, name: "Laptops & Computers", route: "/category" },
+	{ id: 3, name: "Smart Wearables", route: "/category" },
+	{ id: 4, name: "Audio & Headphones", route: "/category" },
+	{ id: 5, name: "Gaming", route: "/category" },
+	{ id: 6, name: "Smart Home", route: "/category" },
+	{ id: 7, name: "Cameras & Drones", route: "/category" },
+	{ id: 8, name: "Accessories", route: "/category" },
+	{ id: 9, name: "TVs & Displays", route: "/category" },
 ];
 
 export interface homeCardDataProps {
@@ -127,37 +127,37 @@ export interface homeCardDataProps {
 export const homeCardData: homeCardDataProps[] = [
 	{
 		id: 1,
-		name: "Home Appliance",
+		name: "Phones & Tablets",
 		image: "/images/home-img-1.png",
 		route: "/category",
 	},
 	{
 		id: 2,
-		name: "Generators",
+		name: "Laptops & Computers",
 		image: "/images/home-img-2.png",
 		route: "/category",
 	},
 	{
 		id: 3,
-		name: "Fashion",
+		name: "Smart Wearables",
 		image: "/images/home-img-3.png",
 		route: "/category",
 	},
 	{
 		id: 4,
-		name: "Electronics",
+		name: "Audio & Headphones",
 		image: "/images/home-img-4.png",
 		route: "/category",
 	},
 	{
 		id: 5,
-		name: "Phone & Tablet",
+		name: "Gaming",
 		image: "/images/home-img-5.png",
 		route: "/category",
 	},
 	{
 		id: 6,
-		name: "Office & Computing",
+		name: "Accessories",
 		image: "/images/home-img-6.png",
 		route: "/category",
 	},
